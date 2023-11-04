@@ -2,10 +2,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: peachpuff;
+    background-color: gray;
 }
 
-body {
+h1 {
+    margin: 0;
+}
+
+/* body {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,8 +23,9 @@ h1 {
 li {
     margin-right: 20px;
     margin-left: 30px;
-}
+} */
 
+/* 
 a {
     text-decoration: none;
 }
@@ -35,23 +40,108 @@ a:visited {
 
 a:hover {
     color: pink;
+} */
+
+
+.header-name {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    vertical-align: baseline;
+
+}
+
+.header-image {
+    object-fit: cover;
 }
 
 .Infoodencer-title {
-    font-size: 500px;
-    display: flex;
-    width: 700px;
-    justify-content: center;
+    font-size: 40px;
+    display: absolute;
+    top: 0;
+    left: 50%;
+    width: 25%;
+
 }
 
+.nav-container-main {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: flex-start;
+    height: 70px;
+    width: 50%;
+    color: fit-content;
+}
 
-
+.nav-container {
+    flex-direction: row;
+    flex-wrap: none;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    text-decoration: none;
+    color: black;
+}
 
 .nav-links {
+    width: 100%;
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    margin-inline-start: 50px;
+}
+
+.three-boxes {
+    font-size: 30px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    margin-inline-start: 50px;
+}
+
+.three-boxes-image {
+    display: 20%;
+
+}
+
+.container {
     display: flex;
-    background-color: peach;
-    width: 100px;
-    list-style-type: none;
-    justify-content: center;
-    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.box {
+    /* Set the background color of your boxes
+    border: 1px solid black; */
+    margin: 20px;
+}
+
+.image-container {
+    position: relative;
+    width: 300px;
+    /* Set the width of your container */
+}
+
+.top-left {
+    position: absolute;
+    top: 0%;
+    /* Position the text 50% from the top of the container */
+    left: 0%;
+    /* Position the text 50% from the left of the container */
+    transform: translate(-0%, -0%);
+    /* Center the text both horizontally and vertically */
+    background-color: rgb(255, 255, 255);
+    /* Background color for the overlay */
+    color: black;
+    /* Text color */
+    padding: 10px;
+    /* Padding around the text */
+    font-size: 18px;
+    /* Font size of the text */
 }
