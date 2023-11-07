@@ -57,11 +57,12 @@ a:hover {
 }
 
 .Infoodencer-title {
-    font-size: 40px;
+    font-size: 45px;
     display: absolute;
     top: 0;
-    left: 50%;
-    width: 25%;
+    left: 40%;
+    width: 30%;
+    color: black;
 
 }
 
@@ -79,7 +80,7 @@ a:hover {
     align-items: flex-start;
     align-content: flex-start;
     height: 70px;
-    width: 50%;
+    width: 100%;
     color: fit-content;
     margin-top: 1px;
 }
@@ -92,15 +93,18 @@ a:hover {
     align-content: flex-start;
     text-decoration: none;
     color: black;
+
 }
 
 .nav-links {
     width: 100%;
+    font-stretch: extra-expanded;
     font-size: 40px;
     text-decoration: none;
     color: black;
     width: 100%;
     margin-inline-start: 50px;
+
 }
 
 .three-boxes {
@@ -135,6 +139,7 @@ a:hover {
     margin: 50px;
 
 
+
 }
 
 .image-container {
@@ -160,4 +165,69 @@ a:hover {
     /* Padding around the text */
     font-size: 18px;
     /* Font size of the text */
+}
+
+/* Style the footer section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.fa-instagram {
+    background: #e16fc6;
+    color: white;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.fa-facebook {
+    background: #1f5ada;
+    color: white;
+}
+
+.social-media a:hover {
+    color: #ff6600;
+}
+
+.subscribe {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.subscribe p {
+    font-size: 16px;
+}
+
+.subscribe form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.subscribe input[type="email"] {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.subscribe input[type="submit"] {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.subscribe input[type="submit"]:hover {
+    background-color: #ff4500;
 }
