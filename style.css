@@ -46,8 +46,9 @@ a:hover {
 .header-name {
     width: 100%;
     display: flex;
-    flex-direction: row;
-    vertical-align: baseline;
+    flex-direction: row vertical-align: baseline;
+    text-align: left;
+
 
 }
 
@@ -62,6 +63,10 @@ a:hover {
     left: 50%;
     width: 25%;
 
+}
+
+.p1 {
+    font-family: "Times New Roman", Times, serif;
 }
 
 .nav-container-main {
@@ -102,29 +107,37 @@ a:hover {
     justify-content: space-between;
     align-items: left;
     margin-inline-start: 50px;
+    color: aqua;
 }
 
 .three-boxes-image {
-    display: 20%;
-
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    align-content: space-between;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: left;
 
 }
 
 .box {
     /* Set the background color of your boxes
     border: 1px solid black; */
-    margin: 20px;
+    margin: 50px;
+
+
 }
 
 .image-container {
     position: relative;
     width: 300px;
+    align-content: flex-start;
     /* Set the width of your container */
 }
 
@@ -132,7 +145,7 @@ a:hover {
     position: absolute;
     top: 0%;
     /* Position the text 50% from the top of the container */
-    left: 0%;
+    left: %;
     /* Position the text 50% from the left of the container */
     transform: translate(-0%, -0%);
     /* Center the text both horizontally and vertically */

@@ -1,0 +1,7 @@
+.biography {
+    background-color: #959687;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+}
