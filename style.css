@@ -46,10 +46,9 @@ a:hover {
 .header-name {
     width: 100%;
     display: flex;
-    flex-direction: row vertical-align: baseline;
+    flex-direction: row;
+    vertical-align: baseline;
     text-align: left;
-
-
 }
 
 .header-image {
@@ -63,7 +62,6 @@ a:hover {
     left: 40%;
     width: 30%;
     color: black;
-
 }
 
 .p1 {
@@ -104,7 +102,6 @@ a:hover {
     color: black;
     width: 100%;
     margin-inline-start: 50px;
-
 }
 
 .three-boxes {
@@ -114,7 +111,6 @@ a:hover {
     justify-content: space-between;
     align-items: left;
     margin-inline-start: 50px;
-    color: aqua;
 }
 
 .three-boxes-image {
@@ -124,60 +120,55 @@ a:hover {
     justify-content: space-around;
     align-items: flex-end;
     align-content: space-between;
+
 }
 
 .container {
     display: flex;
     justify-content: space-around;
     align-items: left;
-
 }
 
 .box {
-    /* Set the background color of your boxes
-    border: 1px solid black; */
     margin: 50px;
-
-
-
 }
 
 .image-container {
     position: relative;
     width: 300px;
     align-content: flex-start;
-    /* Set the width of your container */
+    background-color: #b6a2a2;
+    padding: 20px;
+    text-align: center;
+
 }
 
 .top-left {
     position: absolute;
     top: 0%;
-    /* Position the text 50% from the top of the container */
-    left: %;
-    /* Position the text 50% from the left of the container */
+    left: 0%;
     transform: translate(-0%, -0%);
-    /* Center the text both horizontally and vertically */
     background-color: rgb(255, 255, 255);
-    /* Background color for the overlay */
     color: black;
-    /* Text color */
     padding: 10px;
-    /* Padding around the text */
     font-size: 18px;
-    /* Font size of the text */
 }
 
-/* Style the footer section */
 footer {
     background-color: #333;
     color: #fff;
-    padding: 20px;
+    padding: 1px;
     text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
 }
 
 .fa-instagram {
     background: #e16fc6;
     color: white;
+
 }
 
 .social-media a {
@@ -209,6 +200,7 @@ footer {
     display: flex;
     justify-content: center;
     margin-top: 10px;
+
 }
 
 .subscribe input[type="email"] {
