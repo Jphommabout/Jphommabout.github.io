@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+}
+
+.foodie-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    width: 100%;
+    flex-direction: row;
+    vertical-align: baseline;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.brunch {
+    background-position: center;
+    margin-inline-end: 50%;
+    max-width: 5px;
+    max-height: 5px;
+}
+
+.brunch-content {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.brunch-content2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center
+}
+
+.brunch-image {
+    max-width: 100%;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.brunch-image2 {
+    max-width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.place-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    display: flex;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}

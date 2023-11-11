@@ -168,39 +168,47 @@ footer {
 .fa-instagram {
     background: #e16fc6;
     color: white;
+    margin-right: 10px;
+
 
 }
 
 .social-media a {
     color: #fff;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 10px;
+    margin-left: 5px;
     font-size: 20px;
 }
 
 .fa-facebook {
     background: #1f5ada;
     color: white;
+    margin-right: 10px;
+
 }
 
 .social-media a:hover {
-    color: #ff6600;
+    color: #a79c96;
+    margin-left: 5px;
 }
 
 .subscribe {
-    margin-top: 20px;
+    margin-top: 5px;
     text-align: center;
 }
 
 .subscribe p {
-    font-size: 16px;
+    font-size: 20px;
+    margin-right: 20px;
+    margin: 5px;
+
 }
 
 .subscribe form {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
-
+    margin-top: 1px;
 }
 
 .subscribe input[type="email"] {
@@ -215,7 +223,7 @@ footer {
     color: #fff;
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 2px;
     cursor: pointer;
     margin-left: 10px;
 }
